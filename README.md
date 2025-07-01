@@ -39,3 +39,21 @@ ToDoApp/
 ```bash
 javac ToDoApp.java
 java ToDoApp
+```
+
+## 🧠 Code Breakdown
+
+Below is a detailed breakdown of how the code works:
+
+---
+
+### 🖼️ 1. GUI Components
+
+```java
+JFrame frame = new JFrame("To-Do List");
+JTextField taskInput = new JTextField();
+JList<String> taskList = new JList<>(taskListModel);
+JButton addButton = new JButton("Add");
+JButton deleteButton = new JButton("Delete");
+```
+
